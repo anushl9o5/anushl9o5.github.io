@@ -1,5 +1,10 @@
 # Projects
 ---
+### [Robot Teleoperation using 3D Pose Estimation](https://anushl9o5.github.io/robot_teleop)
+
+![](gifs/rob_teleop.gif)
+
+---
 ### [Aesthetic Enhancement of Images](https://anushl9o5.github.io/aesthetic)
 
 ![](aesthetic_samples/samples2.png)
