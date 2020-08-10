@@ -69,3 +69,5 @@ Training GANs are quite tricky and involves multiple failed experiments before t
 ![](image_restoration/L1+SSIM+Cosine-2.png)
 
 
+Here is the [Colab Notebook](https://colab.research.google.com/drive/1W-egYtxsi58vFf1VY1bB1fxXGY-5gecJ?usp=sharing), with model implemented on Tensorflow
+
