@@ -1,6 +1,3 @@
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 title: Anush Kumar # your name (or website title) here
 logo: "/images/cropped.png?cropResize=50,50" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks) 

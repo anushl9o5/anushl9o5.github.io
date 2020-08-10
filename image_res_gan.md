@@ -57,17 +57,15 @@ Training GANs is not quite tricky and involves multiple failed experiments befor
 |        L1 + MS-SSIM + Cosine        |        35.67 dB        |        36.55 dB       |
 | L1 + MS-SSIM + Cosine + Adversarial |        37.68 dB        |        40.67 dB       |
 
+
 ## Qualitative Results
 
 ### Low Distortion (L1 + MS-SSIM + Cosine + Adversarial)
 
-| Input | Reconstruction | Ground Truth |
 ![](image_restoration/L1+SSIM+Cosine.png)
 
 ### High Distortion (L1 + MS-SSIM + Cosine + Adversarial)
 
-| Input | Reconstruction | Ground Truth |
-|:-----:|:--------------:|:------------:|
 ![](image_restoration/L1+SSIM+Cosine-2.png)
 
 
