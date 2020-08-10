@@ -7,20 +7,20 @@ Given a distorted image from the Public Figures Dataset. Use a Deep Learning mod
 
 ## Method of Image Distortion 
 <p align="justify">
-For every pixel in the image a 5x5 kernel is applied around it. The kernel randomly switches pixels positions while traversing the entire image. This results in visual artifacts similar to grain. There is no external noise component added to the image as such. Givne this outline, we can control the rate at which the pixels are shuffled, therefore I had created two versions of the dataset. One with high distortion, and one with lower distortion.
+For every pixel in the image a 5x5 kernel is applied around it. The kernel randomly switches pixels positions while traversing the entire image. This results in visual artifacts similar to grain. There is no external noise component added to the image as such. Given this outline, we can control the rate at which the pixels are shuffled, therefore I had created two versions of the dataset. One with high distortion, and one with lower distortion.
 </p>
 
 ## Problems Faced while training GANs
 <p align="justify">
-Training GANs is not quite tricky and involves multiple failed experiments before the model is able to acheive stability. Here are some of the things that I employed in order to train the GAN model.<br>
+Training GANs are quite tricky and involves multiple failed experiments before the model is able to acheive stability. Here are some of the things that I employed in order to train the GAN model.<br>
  <ul>
   <li>Plotting and tracking the loss of both the Generator and Discriminator can give you a lot of insight on what is going on, when the training fails.
   </li>
-  <li>I found the Discriminator is able to distinguish between both samples(real/fake) with ease. This can be identified from the plot of the losses. One such indication is if the loss of the Discriminator is low and the Generator is high (sometimes diverges). You can also look at the reconstructions from the Generator to get an idea or also plot metrics like PSNR/SSIM between the Ground Truth and Reconsturcted Image
+  <li>I found the Discriminator is able to distinguish between both samples(real/fake) with ease. This can be identified from the plot of the losses. One such indication is if the loss of the Discriminator is low and the Generator is high (sometimes diverges). One can also look at the reconstructions from the Generator to get an idea or also plot metrics like PSNR/SSIM between the Ground Truth and Reconsturcted Image
   </li>
   <li> To mitigate this, I lowered the learning rate of the Discriminator. This ensures that the Discriminator's learning process is slowed down, and the Generator is able to produce better samples.
   </li>
-  <li> Another approach is to make the Discriminator objective more difficult. One way, is to make the Discriminator predict a patch rather than just a single class probability. This ensures that the receptive field of the Discriminator is not reduced to just a single number. If not, a single pixel or a small region of pixels might influenece the prediction.
+  <li> Another approach is to make the Discriminator objective more difficult. One way, is to make the Discriminator predict a patch rather than just a single class probability. This ensures that the receptive field of the Discriminator is not reduced to just a single number. If not, a single pixel or a small region of pixels at the input might influenece the prediction.
   </li>
   <li> Also, using mixed image pairs apart from the Ground Truth-Reconstruction pairs to train the disciminator helps as well.
   </li>
