@@ -42,6 +42,7 @@ Finally, since the SSIM loss operates on Grayscale images, the reconstructions h
 ## Quantitative Results
 
 ### Ablation Studies for Loss Functions
+
 |                Losses               | PSNR (High Distortion | PSNR (Low Distortion) |
 |:-----------------------------------:|:---------------------:|:---------------------:|
 |           L1 + Adversarial          |        31.66 dB       |        34.93 dB       |
@@ -50,6 +51,7 @@ Finally, since the SSIM loss operates on Grayscale images, the reconstructions h
 
 
 ### Adversarial Training contribution
+
 |                Losses               | PSNR (High Distortion) | PSNR (Low Distortion) |
 |:-----------------------------------:|:----------------------:|:---------------------:|
 |        L1 + MS-SSIM + Cosine        |        35.67 dB        |        36.55 dB       |
@@ -58,10 +60,12 @@ Finally, since the SSIM loss operates on Grayscale images, the reconstructions h
 ## Qualitative Results
 
 ### Low Distortion (L1 + MS-SSIM + Cosine + Adversarial)
+
 | Input | Reconstruction | Ground Truth |
-|:-----:|:--------------:|:------------:|
 |![](image_restoration/L1+SSIM+Cosine.png)|
+
 ### High Distortion (L1 + MS-SSIM + Cosine + Adversarial)
+
 | Input | Reconstruction | Ground Truth |
 |:-----:|:--------------:|:------------:|
 |![](image_restoration/L1+SSIM+Cosine-2.png)|
