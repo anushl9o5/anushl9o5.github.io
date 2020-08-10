@@ -2,9 +2,7 @@ title: Anush Kumar # your name (or website title) here
 logo: "/images/cropped.png?cropResize=50,50" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks) 
   <br>
-  <a href="https://anushl9o5.github.io/research_projects"><b>Research Projects</b></a>
-  <br><br>
-  <a href="https://anushl9o5.github.io/mini_projects"><b>Mini Projects</b></a>
+  <a href="https://anushl9o5.github.io/research_projects"><b>Research Projects</b></a> | <a href="https://anushl9o5.github.io/mini_projects"><b>Mini Projects</b></a>
   <br><br>
   Computer Vision | Robotics | Artifical Intelligence | Embedded Systems
   <br><br>
