@@ -62,7 +62,7 @@ Training GANs is not quite tricky and involves multiple failed experiments befor
 ### Low Distortion (L1 + MS-SSIM + Cosine + Adversarial)
 
 | Input | Reconstruction | Ground Truth |
-|![](image_restoration/L1+SSIM+Cosine.png)|
+![](image_restoration/L1+SSIM+Cosine.png)
 
 ### High Distortion (L1 + MS-SSIM + Cosine + Adversarial)
 
