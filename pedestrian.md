@@ -2,7 +2,7 @@
 
 ## Abstract
 <p align="justify">
-This method is inspired by [FCOS: Fully Convolutional One-Stage Object Detection](https://arxiv.org/abs/1904.01355), the implementation is derived from [DetectionTeamUCAS](https://github.com/DetectionTeamUCAS/FCOS_Tensorflow).     
+This method is inspired by <a href="https://arxiv.org/abs/1904.01355"><b>FCOS: Fully Convolutional One-Stage Object Detection</b></a>, the implementation is derived from <a href="https://github.com/DetectionTeamUCAS/FCOS_Tensorflow"><b>DetectionTeamUCAS</b></a>.
 </p>
 
 ![1](Original_FCOS.png)         
