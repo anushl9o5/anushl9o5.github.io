@@ -68,6 +68,6 @@ Training GANs is not quite tricky and involves multiple failed experiments befor
 
 | Input | Reconstruction | Ground Truth |
 |:-----:|:--------------:|:------------:|
-|![](image_restoration/L1+SSIM+Cosine-2.png)|
+![](image_restoration/L1+SSIM+Cosine-2.png)
 
 
