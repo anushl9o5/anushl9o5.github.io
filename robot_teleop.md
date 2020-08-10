@@ -1,4 +1,4 @@
-# Robot Teleoperation using 3D Pose Estimation :
+# Robot Teleoperation using 3D Pose Estimation
 
 ## 3D Pose Estimation
 <p align="justify">
