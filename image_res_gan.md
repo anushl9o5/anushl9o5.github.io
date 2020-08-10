@@ -37,6 +37,7 @@ Training GANs is not quite tricky and involves multiple failed experiments befor
 <li>
 Finally, since the SSIM loss operates on Grayscale images, the reconstructions had discolorations occasionally. Therefore I included the cosine similarity loss. This treats the pixels as vectors in the RGB space, if the pixel vector for the Reconstruction and its corresponding Ground Truth are in the same direction (small angle between them) then the cosine similarity loss is low. This ensures color similarity to mitigate the discoloration from SSIM loss.
 </li>
+</ul>
 </p>
 
 ## Quantitative Results
