@@ -24,5 +24,5 @@ Here is a Demo of the website, which uses the model described above. I learned a
 
 ![](facemorph/website-demo.gif)
 
-Here is the [Colab Notebook](https://colab.research.google.com/drive/1W-egYtxsi58vFf1VY1bB1fxXGY-5gecJ?usp=sharing), with Flask Webapp and model implemented on PyTorch.
+Here is the [Colab Notebook](https://colab.research.google.com/drive/1EFc4onUIibLTX6BDWFT_b04oN6xlYEPQ?usp=sharing), with Flask Webapp and model implemented on PyTorch.
 
