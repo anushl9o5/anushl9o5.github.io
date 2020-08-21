@@ -1,6 +1,6 @@
 # FaceMorph - An interactive website for generating and manipulating facial attributes
 <p align="justify">
-<b>FaceMorph</b> uses Deep Learning to generate faces. It allows for manipluation of facial features such as hair color, facial hair, and degree of smile. The website is designed and developed using HTML, CSS and JS. Flask is used to deploy the deep learning model online for real-time interaction. 
+<b>FaceMorph</b> uses Deep Learning to generate faces. It allows for manipluation of facial features such as hair color, facial hair, smile and gaze. The website is designed and developed using HTML, CSS and JS. Flask is used to deploy the deep learning model online for real-time interaction. 
 </p>
 
 ## Learning Disentangled Representations using VAEs conditioned on Structural Similarity 
@@ -10,7 +10,7 @@ The underlying model devloped is a <b>Variational Autoencoder</b> whose cost fun
 
 ## Analyzing the learned latent representations
 <p align="justify">
-The model is trained on the CelebA dataset, which consists of 200k images of celebrity faces. The dataset also contains a set of facial attributes(Gender, Hair Color, Facial Hair, Hair Style, etc) that can be used to group the images in the dataset.<br>I analyze the degree of disentanglement in representation with the help of these attributes. Once the latent vectors on images with a specific attribute is computed, we can estimate the mean latent vector of the attribute. Then using vector arithmetic, we can simply add the mean latent vector to an image that lacks said attribute. If the latent space is well defined, then this operation would generate a reconstruction that includes this attribute in the image.<br> Below is a Table with different attributes gradually being introduced to the image (Facial Hair, Hair Color, Smile and Gaze).
+The model is trained on the CelebA dataset, which consists of 200k images of celebrity faces. The dataset also contains a set of facial attributes(Gender, Hair Color, Facial Hair, Hair Style, etc) that can be used to group the images in the dataset.<br>I analyze the degree of disentanglement in representation with the help of these attributes. Once the latent vectors on images with a specific attribute is computed, we can estimate the mean latent vector of the attribute. Then using vector arithmetic, we can simply add the mean latent vector to an image that lacks said attribute. If the latent space is well defined, then this operation would generate a reconstruction that includes this attribute in the image.<br> Below is a table with different attributes gradually being manipulated in the image.
 </p>
 
 |                Hair Color           |       Facial Hair       |          Smile          |           Gaze           |
