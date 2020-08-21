@@ -15,14 +15,14 @@ The model is trained on the CelebA dataset, which consists of 200k images of cel
 
 |                Hair Color           |       Facial Hair       |          Smile          |      Random Morphing     |
 |:-----------------------------------:|:-----------------------:|:-----------------------:|:------------------------:|
-|    ![](facemorph/hair_female.gif)   |![](facemorph/tache1.gif)|![](facemorph/smile1.gif)|![](facemorph/random1.gif)|
-|    ![](facemorph/hair_male.gif)     |![](facemorph/tache2.gif)|![](facemorph/smile2.gif)|![](facemorph/random3.gif)|
+|    ![](facemorph/hair_female.gif)   |![](facemorph/tache1.gif)|![](facemorph/smile1.gif)| ![](facemorph/gaze2.gif) |
+|    ![](facemorph/hair_male.gif)     |![](facemorph/tache2.gif)|![](facemorph/smile2.gif)| ![](facemorph/gaze3.gif) |
 
 
 ## FaceMorph Demo
 Here is a Demo of the website, which uses the model described above. I learned a bit of JS and AJAX from developing this website and also how Flask can be used to deploy such models. While there is a lot of room for imporvment, when it comes to the design and responsiveness of the website, I am happy with how it has turned out. There will be updates to the website in this regard
 
-![](facemorph/website-demo.gif)
+![](facemorph/website-demo2.gif)
 
 Here is the [Colab Notebook](https://colab.research.google.com/drive/1EFc4onUIibLTX6BDWFT_b04oN6xlYEPQ?usp=sharing), with Flask Webapp and model implemented on PyTorch.
 

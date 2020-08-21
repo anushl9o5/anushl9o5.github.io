@@ -2,7 +2,7 @@
 ---
 ### [FaceMorph - An interactive website for generating and manipulating facial attributes](https://anushl9o5.github.io/facemorph)
 
-![](facemorph/thumbnail.gif)
+![](facemorph/thumbnail2.gif)
 
 ---
 ### [Image Restoration using Generative Adversarial Networks](https://anushl9o5.github.io/image_res_gan)
