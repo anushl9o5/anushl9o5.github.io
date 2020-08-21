@@ -10,10 +10,10 @@ The underlying model devloped is a <b>Variational Autoencoder</b> whose cost fun
 
 ## Analyzing the learned latent representations
 <p align="justify">
-The model is trained on the CelebA dataset, which consists of 200k images of celebrity faces. The dataset also contains a set of facial attributes(Gender, Hair Color, Facial Hair, Hair Style, etc) that can be used to group the images in the dataset.<br>I analyze the degree of disentanglement in representation with the help of these attributes. Once the latent vectors on images with a specific attribute is computed, we can estimate the mean latent vector of the attribute. Then using vector arithmetic, we can simply add the mean latent vector to an image that lacks said attribute. If the latent space is well defined, then this operation would generate a reconstruction that includes this attribute in the image.<br> Below is a Table with different attributes gradually being introduced to the image (Facial Hair, Hair Color, Degree of Smile).
+The model is trained on the CelebA dataset, which consists of 200k images of celebrity faces. The dataset also contains a set of facial attributes(Gender, Hair Color, Facial Hair, Hair Style, etc) that can be used to group the images in the dataset.<br>I analyze the degree of disentanglement in representation with the help of these attributes. Once the latent vectors on images with a specific attribute is computed, we can estimate the mean latent vector of the attribute. Then using vector arithmetic, we can simply add the mean latent vector to an image that lacks said attribute. If the latent space is well defined, then this operation would generate a reconstruction that includes this attribute in the image.<br> Below is a Table with different attributes gradually being introduced to the image (Facial Hair, Hair Color, Smile and Gaze).
 </p>
 
-|                Hair Color           |       Facial Hair       |          Smile          |      Random Morphing     |
+|                Hair Color           |       Facial Hair       |          Smile          |           Gaze           |
 |:-----------------------------------:|:-----------------------:|:-----------------------:|:------------------------:|
 |    ![](facemorph/hair_female.gif)   |![](facemorph/tache1.gif)|![](facemorph/smile1.gif)| ![](facemorph/gaze2.gif) |
 |    ![](facemorph/hair_male.gif)     |![](facemorph/tache2.gif)|![](facemorph/smile2.gif)| ![](facemorph/gaze3.gif) |
