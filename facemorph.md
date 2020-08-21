@@ -10,7 +10,7 @@ The underlying model devloped is a <b>Variational Autoencoder</b> whose cost fun
 
 ## Analyzing the learned latent representations
 <p align="justify">
-The model is trained on the CelebA dataset, which consists of 200k images of celebrity faces. The dataset also contains a set of facial attributes(Gender, Hair Color, Facial Hair, Hair Style, etc) that can be used to group the images in the dataset.<br>I analyze the degree of disentanglement in representation with the help of these attributes. Once the latent vectors on images with a specific attribute is computed, we can estimate the mean latent vector of the attribute. Then using vector arithmetic, we can simply add the mean latent vector to an image that lacks said attribute. If the latent space is well defined, then this operation would generate a reconstruction that includes this attribute in the image.<br> Below is a table with different attributes gradually being manipulated in the image.
+The model is trained on the CelebA dataset, which consists of 200k images of celebrity faces. The dataset also contains a set of facial attributes (Gender, Hair Color, Facial Hair, Hair Style, etc) that can be used to group the images in the dataset.<br>I analyze the degree of disentanglement in representation with the help of these attributes. Once the latent vectors on images with a specific attribute are computed, we can estimate the mean latent vector of the attribute. Then using vector arithmetic, we can simply add the mean latent vector to an image that lacks said attribute. If the latent space is well defined, then this operation would generate a reconstruction that includes this attribute in the image.<br> Below is a table with different attributes being manipulated in the image.
 </p>
 
 |                Hair Color           |       Facial Hair       |          Smile          |           Gaze           |
@@ -20,7 +20,9 @@ The model is trained on the CelebA dataset, which consists of 200k images of cel
 
 
 ## FaceMorph Demo
+<p align="justify">
 Here is a Demo of the website, which uses the model described above. I learned a bit of JS and AJAX from developing this website and also how Flask can be used to deploy such models. While there is a lot of room for imporvment, when it comes to the design and responsiveness of the website, I am happy with how it has turned out. There will be updates to the website in this regard
+</p>
 
 ![](facemorph/website-demo2.gif)
 
