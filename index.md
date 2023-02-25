@@ -1,7 +1,7 @@
 # About me
 ---
 <p align="justify">
-<font size="-1">Hello there!<br>
+<font size="-1">Welcome!<br>
 
 As a Robotics student at the University of Minnesota, Twin Cities, I'm on a mission to create machines that could potentially rival our own intelligence. My research focuses on upcoming topics like multi-view geometry, 3D meshes, and egocentric vision, working alongside <a href="https://www-users.cse.umn.edu/~hspark/">Prof. Hyun Soo Park</a>.<br><br>
 
