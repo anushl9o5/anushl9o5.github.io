@@ -1,5 +1,5 @@
 title: <center>Anush Kumar</center> # your name (or website title) here
-logo: "/images/new_dp.png?cropResize=50,50" # your photo (or logo) here
+logo: "/images/new_dp_square.png?cropResize=50,50" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks) 
   <br>
   <center>
@@ -8,7 +8,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   Computer Vision | Robotics | Photography
   <br><br>
   <a href="https://www.linkedin.com/in/anushl9o5/"><font size="-2"><b>LinkedIn</b></font></a> <a   href="https://drive.google.com/open?id=17P-SHknO9DTasOTai7lzgQy32eEpmB49"><font size="-2"><b> | Resume</b></font></a>
-  <a href="https://www.instagram.com/_anushkumar/"><font size="-2"><b>Instagram</b></font></a>
+  <a href="https://www.instagram.com/_anushkumar/"><font size="-2"><b> | Instagram</b></font></a>
   </center>
   
 theme: jekyll-theme-minimal
