@@ -1,15 +1,13 @@
 # About me
 ---
 <p align="justify">
+<font size="-1">Hello there!<br>
 
-<font size="-1">Hey!<br>
+As a Robotics student at the University of Minnesota, Twin Cities, I'm on a mission to create machines that could potentially rival our own intelligence. My research focuses on upcoming topics like multi-view geometry, 3D meshes, and egocentric vision, working alongside <a href="https://www-users.cse.umn.edu/~hspark/">Prof. Hyun Soo Park</a>.<br><br>
 
-I'm a Robotics grad student from the University of Minnesota, Twin Cities. I work on trying to make machines smarter or at least comparable to humans. Also, I'm a photogrpahy, music and film enthusiast<br><br> 
+Before that, I spent time at the Robert Bosch Center for Cyber Physical Systems, working on exciting challenges like warehouse automation for AGVs, vision-aided teleoperation for manipulators, and visual SLAM for quadrupeds with <a href="https://shishirny.github.io/">Dr. Shishir N. Y</a> and <a href="https://aml.ece.iisc.ac.in/index.php/Bharadwaj_Amrutur">Prof. Bharadwaj Amrutur</a>. I've also honed my skills in object detection, depth estimation, and computational photography during my time with <a href="http://cds.iisc.ac.in/faculty/venky/">Prof. Venkatesh Babu</a>.<br><br>
 
-I currently work on problems involving Multi-View Geomerty, 3D Meshes, Pose Estimation and Egocentric Vision with with <a href="">Prof. Hyun Soo Park</a><br><br>
+And when I'm not hard at work, I'm indulging in my passions for photography, music, and film.
 
-Prior to this, I spent some time at the Robert Bosch Center for Cyber Physical Systems working with <a href="https://shishirny.github.io/">Dr. Shishir N. Y</a> and <a href="https://aml.ece.iisc.ac.in/index.php/Bharadwaj_Amrutur">Prof. Bharadwaj Amrutur</a>. Here I mainly worked on problems involving Warehouse Automation for AGVs, Vision-aided Teleoperation for Manipulators, Visual SLAM for Quadrupeds. <br><br>
-
-I also have experience working on Object Detection, Depth Estimation and Computational Photography during my time with <a href="http://cds.iisc.ac.in/faculty/venky/">Prof. Venkatesh Babu</a> </font>
-
+</font>
 </p>
