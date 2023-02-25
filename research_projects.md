@@ -7,7 +7,7 @@
 ---
 ### [Warehouse Automation Emulation using AGVs](https://anushl9o5.github.io/Mouse3D)
 
-![](https://youtu.be/97apm53uTUA)
+{% include youtube.html id="97apm53uTUA" %}  
 
 ---
 ### [Robot Teleoperation using 3D Pose Estimation](https://anushl9o5.github.io/robot_teleop)
