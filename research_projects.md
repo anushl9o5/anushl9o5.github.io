@@ -1,5 +1,10 @@
 # Research Projects
 ---
+### [Mouse3D: A Comprehensive Multiview Dataset for Mice Behaviors](https://anushl9o5.github.io/Mouse3D)
+
+![](gifs/mix-3.gif)
+
+---
 ### [Robot Teleoperation using 3D Pose Estimation](https://anushl9o5.github.io/robot_teleop)
 
 ![](gifs/rob_teleop.gif)
