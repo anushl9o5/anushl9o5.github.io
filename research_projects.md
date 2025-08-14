@@ -1,5 +1,10 @@
 # Research Projects
 ---
+### [Flow-Guided Online Stereo Rectification for Wide Baseline Stereo](https://light.princeton.edu/publication/online-stereo-recification/) [(code)](https://github.com/anushl9o5/FloSR)
+
+![](gifs/website-teaser.drawio.png)
+
+---
 ### [Mouse3D: A Comprehensive Multiview Dataset for Mice Behaviors](https://anushl9o5.github.io/Mouse3D)
 
 ![](gifs/mix-3.gif)
